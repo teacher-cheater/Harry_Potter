@@ -4,6 +4,7 @@ import {data} from './person.js';
 const inputEnter = document.querySelector('input')
 
 const mainContainer = document.querySelector('.main__container')
+const createBlockContent = document.createElement('div')
 
 // переменная для cart
 const carts = document.querySelector('.cart')
@@ -13,6 +14,8 @@ const school = document.querySelector('.header__school')
 
 //функция для создания карты
 function searchCart (images,names, actors, genderes, houses, wands, alives){
+   createBlockContent.className = 'main__content'
+
    //переменная для блока с картами
    const cartContainer = document.createElement('div')
    cartContainer.className = 'carts'
@@ -49,8 +52,8 @@ function searchCart (images,names, actors, genderes, houses, wands, alives){
 
    cartContent.append(cartName)
    cartContent.append(cartList)
-
-   mainContainer.append(cartContainer)
+   createBlockContent.append(cartContainer)
+   mainContainer.append(createBlockContent)
 }
 
 // name, actor, gender, house, wand, alive
