@@ -1,0 +1,268 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,700,800&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+  background: #f5f5f5;
+}
+
+html {
+  /* по умолчанию */
+  font-size: 16px;
+}
+
+/*---------------------------------*/
+.header {
+  border-bottom: 1px solid #DEE2E6;
+}
+
+.header__base {
+  margin-bottom: 79px;
+}
+
+@media (max-width: 767.98px) {
+  .header__base {
+    margin-bottom: 28px;
+  }
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .header__title {
+    font-size: 52px;
+    line-height: 63px;
+  }
+}
+
+.header__subtitle {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.71;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+.header__registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767.98px) {
+  .header__registration {
+    display: block;
+  }
+}
+
+.header__block-choice-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 767.98px) {
+  .header__block-choice-1 {
+    margin-bottom: 19px;
+  }
+}
+
+.header__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #818182;
+}
+
+.header__input-text {
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  padding: 8px 0 8px 17px;
+  width: 452px;
+  height: 38px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .header__input-text {
+    width: 100%;
+  }
+}
+
+.header__school-choice {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #818182;
+}
+
+.header__school {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+  padding: 8px;
+  width: 216px;
+  height: 38px;
+  color: #ABB5BE;
+}
+
+@media (max-width: 767.98px) {
+  .header__school {
+    width: 100%;
+  }
+}
+
+.main__carts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.item-cart {
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+  margin: 10px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 47%;
+          flex: 0 1 47%;
+}
+
+@media (max-width: 767.98px) {
+  .item-cart {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+  }
+}
+
+.item-cart__image {
+  width: 100%;
+  height: auto;
+}
+
+.item-cart__content {
+  color: #152536;
+  line-height: 1.8;
+  padding: 24px;
+}
+
+.item-cart__title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.item-cart__list {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Условные планшеты */
+/* Условные мобилки */
+[class*="__container"] {
+  max-width: 718px;
+  margin: 0px auto;
+  padding: 40px 15px;
+  background: #F5F5F5;
+}
+
+@media (max-width: 767.98px) {
+  [class*="__container"] {
+    padding: 40px 40px;
+  }
+}
+
+/*----------------------------------*/
+body {
+  line-height: 1;
+  font-family: "Inter";
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* ------------------------------ */
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
