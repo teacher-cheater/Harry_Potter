@@ -8,7 +8,7 @@ const mainContainer = document.querySelector('.main__container')
 // переменная для cart
 const carts = document.querySelector('.cart')
 
-//
+//переменная для выбора школы
 const school = document.querySelector('.header__school')
 
 //функция для создания карты
@@ -61,28 +61,13 @@ data.forEach((item)=>(searchCart(item.image, item.name, item.actor, item.gender,
 function searchPerson(event){
    let inputSearch = document.querySelector('input');
    let selectSearch = document.querySelector('select');
-   //console.log(selectSearch.value)
-   //let enterInputValue = event.target.value;
 
    let searchData = data.filter((carts)=> carts.house.includes((selectSearch.value)) && carts.name.toLowerCase().includes(inputSearch.value.trim().toLowerCase()))
 
-      //let name = document.querySelector("input").value
-      //let house = document.querySelector("select").value
-      //filterHouse = data.filter((elem) => elem.house.includes((house)) && elem.name.toLowerCase().includes(name.toLowerCase())
-      //);
-
-   //console.log(searchData) 
    //создали переменную, в которую вложили отфильтрованные карты. (includes ищет по введенным данным)
-
    mainContainer.innerHTML = ''; //очистили поле. показ нов карт
    return searchData.forEach((item)=> searchCart(item.image, item.name, item.actor, item.gender, item.house, item.wand, item.alive))//вернули новые карты, которые перебрали с помощью forEach, присвоив через аргумент значения из объекта data
 
 }
 inputEnter.addEventListener('input', (event) => searchPerson(event)) //повесли прослушку на input
 school.addEventListener('change', (event)=> searchPerson(event))
-
-//function searchSelector(event){
-//   let enterData = data.filter((carts)=> carts.house.filter(event.target.value))
-//   mainContainer.innerHTML = '';
-//   return enterData.forEach((item)=> searchCart(item.house))
-//}
