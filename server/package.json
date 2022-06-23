@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teacher-cheater/Harry_Potter.git"
+  },
+  "keywords": [
+    "harry potter"
+  ],
+  "author": "Evgeniy Nekipelov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
