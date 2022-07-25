@@ -41,7 +41,6 @@ function searchPerson(personAll) {
    //let searchData = data.filter((carts) => carts.house.includes((selectSearch.value)) && carts.name.toLowerCase().includes(inputSearch.value.trim().toLowerCase())) //для сервера
 
    let searchData = personAll.filter((carts) => carts.house.includes((selectSearch.value)) && carts.name.toLowerCase().includes(inputSearch.value.trim().toLowerCase()))
-   console.log(searchData)
 
    //создали переменную, в которую вложили отфильтрованные карты. (includes ищет по введенным данным)
    mainContent.innerHTML = ''; //очистили поле. показ нов карт

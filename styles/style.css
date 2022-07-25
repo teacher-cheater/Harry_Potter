@@ -7,7 +7,7 @@
   padding: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 li {
@@ -50,7 +50,7 @@ html {
 
 /*---------------------------------*/
 .header {
-  border-bottom: 1px solid #DEE2E6;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .header__base {
@@ -110,8 +110,8 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 @media (max-width: 767.98px) {
@@ -128,8 +128,8 @@ html {
 }
 
 .header__input-text {
-  background: #FFFFFF;
-  border: 1px solid #CED4DA;
+  background: #ffffff;
+  border: 1px solid #ced4da;
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
@@ -159,18 +159,18 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.31;
-  background: #FFFFFF;
-  border: 1px solid #CED4DA;
+  background: #ffffff;
+  border: 1px solid #ced4da;
   border-radius: 4px;
   padding: 8px;
   width: 216px;
   height: 38px;
-  color: #ABB5BE;
+  color: #abb5be;
 }
 
 @media (max-width: 767.98px) {
@@ -184,29 +184,29 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0 -10px;
 }
 
-.item-cart {
-  background: #FFFFFF;
-  border: 1px solid #DEE2E6;
+/*.item-cart {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
   border-radius: 4px;
   margin: 10px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 47%;
-          flex: 0 1 47%;
+  -ms-flex: 0 1 47%;
+  flex: 0 1 47%;
 }
 
 @media (max-width: 767.98px) {
   .item-cart {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-            flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
   }
-}
+}*/
 
-.item-cart__image {
+/*.item-cart__image {
   width: 100%;
   height: auto;
 }
@@ -225,7 +225,7 @@ html {
 .item-cart__list {
   font-size: 20px;
   font-weight: 500;
-}
+}*/
 
 /* Условные планшеты */
 /* Условные мобилки */
@@ -233,7 +233,7 @@ html {
   max-width: 718px;
   margin: 0px auto;
   padding: 40px 15px;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 @media (max-width: 767.98px) {
@@ -256,13 +256,13 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 /* ------------------------------ */
 .main {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }

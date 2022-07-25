@@ -1,130 +1,129 @@
 .header {
-   border-bottom: 1px solid #DEE2E6;
- }
- 
- .header__base {
-   margin-bottom: 79px;
- }
- 
- @media (max-width: 767.98px) {
-   .header__base {
-     margin-bottom: 28px;
-   }
- }
- 
- .header__title {
-   font-weight: 700;
-   font-size: 64px;
-   line-height: 77px;
-   letter-spacing: -0.02em;
-   color: #000000;
- }
- 
- @media (max-width: 767.98px) {
-   .header__title {
-     font-size: 52px;
-     line-height: 63px;
-   }
- }
- 
- .header__subtitle {
-   font-weight: 400;
-   font-size: 21px;
-   line-height: 1.71;
-   color: #000000;
- }
- 
- @media (max-width: 767.98px) {
-   .header__subtitle {
-     font-size: 16px;
-     line-height: 28px;
-   }
- }
- 
- .header__registration {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
- }
- 
- @media (max-width: 767.98px) {
-   .header__registration {
-     display: block;
-   }
- }
- 
- .header__block-choice-1 {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-       -ms-flex-direction: column;
-           flex-direction: column;
- }
- 
- @media (max-width: 767.98px) {
-   .header__block-choice-1 {
-     margin-bottom: 19px;
-   }
- }
- 
- .header__name {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.75;
-   color: #818182;
- }
- 
- .header__input-text {
-   background: #FFFFFF;
-   border: 1px solid #CED4DA;
-   border-radius: 4px;
-   font-weight: 400;
-   font-size: 16px;
-   width: 100%;
-   padding: 8px 0 8px 17px;
-   width: 452px;
-   height: 38px;
-   margin-right: 20px;
- }
- 
- @media (max-width: 767.98px) {
-   .header__input-text {
-     width: 100%;
-   }
- }
- 
- .header__school-choice {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.75;
-   color: #818182;
- }
- 
- .header__school {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-       -ms-flex-direction: column;
-           flex-direction: column;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.31;
-   background: #FFFFFF;
-   border: 1px solid #CED4DA;
-   border-radius: 4px;
-   padding: 8px;
-   width: 216px;
-   height: 38px;
-   color: #ABB5BE;
- }
- 
- @media (max-width: 767.98px) {
-   .header__school {
-     width: 100%;
-   }
- }
- 
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header__base {
+  margin-bottom: 79px;
+}
+
+@media (max-width: 767.98px) {
+  .header__base {
+    margin-bottom: 28px;
+  }
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .header__title {
+    font-size: 52px;
+    line-height: 63px;
+  }
+}
+
+.header__subtitle {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.71;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+.header__registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767.98px) {
+  .header__registration {
+    display: block;
+  }
+}
+
+.header__block-choice-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (max-width: 767.98px) {
+  .header__block-choice-1 {
+    margin-bottom: 19px;
+  }
+}
+
+.header__name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #818182;
+}
+
+.header__input-text {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  padding: 8px 0 8px 17px;
+  width: 452px;
+  height: 38px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .header__input-text {
+    width: 100%;
+  }
+}
+
+.header__school-choice {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #818182;
+}
+
+.header__school {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+  width: 216px;
+  height: 38px;
+  color: #abb5be;
+}
+
+@media (max-width: 767.98px) {
+  .header__school {
+    width: 100%;
+  }
+}

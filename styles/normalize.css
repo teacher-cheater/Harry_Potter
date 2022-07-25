@@ -3,7 +3,7 @@
 /* Условные мобилки */
 [class*="__container"] {
   max-width: 718px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 40px 15px;
 }
 
